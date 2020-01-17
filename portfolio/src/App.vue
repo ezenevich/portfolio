@@ -1,30 +1,43 @@
 <template>
-  <div id="app">
-    <h1>{{ msg }}</h1>
+  <div>
+
+    <navigation/>
+
+    <blog/>
+
+    <footer-info/>
+
   </div>
 </template>
 
 <script>
+  import Navigation from './components/navigation.vue'
+  import Blog from "./components/blog.vue";
+  import FooterInfo from "./components/foote-infor";
+
 
 export default {
   name: 'app',
-  data () {
-    return {
-      msg: 'Welcome Elisei'
-    }
+  components: {
+    FooterInfo,
+    Navigation,
+    Blog
   }
+
 }
 </script>
 
 
 <style>
-#app {
+
+#app2 {
+  padding: 0;
+  margin: 0;
   font-family: 'Avenir', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 50px;
   border: 2px solid #42b983;
 }
 
