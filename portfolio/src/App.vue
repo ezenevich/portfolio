@@ -13,7 +13,7 @@
 <script>
   import Navigation from './components/navigation.vue'
   import Blog from "./components/blog.vue";
-  import FooterInfo from "./components/foote-infor";
+  import FooterInfo from "./components/footer-info.vue";
 
 
 export default {
@@ -45,7 +45,4 @@ h1, h2 {
   font-weight: normal;
 }
 
-a {
-  color: #42b983;
-}
 </style>
