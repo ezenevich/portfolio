@@ -3,7 +3,7 @@
 
     <navigation/>
 
-    <blog/>
+    <router-view></router-view>
 
     <footer-info/>
 
@@ -11,7 +11,7 @@
 </template>
 
 <script>
-  import Navigation from './components/navigation.vue'
+  import Navigation from './components/navigation.vue';
   import Blog from "./components/blog.vue";
   import FooterInfo from "./components/footer-info.vue";
 

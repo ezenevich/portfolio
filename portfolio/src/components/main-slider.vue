@@ -13,7 +13,7 @@
         <div class="carousel-caption">
           <h1 class="display-2">Hexal</h1>
           <h3>Look this task</h3>
-          <button type="button" class="btn btn-outline-light btn-lg">Look</button>
+          <router-link to="/hexal" class="btn btn-outline-light btn-lg">Look</router-link>
         </div>
       </div>
       <div class="carousel-item">
@@ -56,6 +56,14 @@
     position: absolute;
     top: 150px;
     text-shadow: 1px 1px 10px #000000;
+  }
+
+  .nav-link{
+    color: #ffffff;
+  }
+
+  .nav-link:hover{
+    color: #000000;
   }
 
 </style>

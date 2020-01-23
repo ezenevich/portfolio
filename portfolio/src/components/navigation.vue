@@ -1,37 +1,28 @@
 <template>
 
-  <header id="header">
     <nav class="navbar navbar-expand-md navbar-dark sticky-top">
-
       <a href="#" class="navbar-bard"><img src="../assets/main-logo.png" height="50" alt="logo"></a>
-
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-responsive">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbar-responsive">
-
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a href="#" class="nav-link" >Home</a>
+            <router-link to="/home" class="nav-link">Home</router-link>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Projects</a>
+            <router-link to="/projects" class="nav-link">Projects</router-link>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">About me</a>
+            <router-link to="/about" class="nav-link">About me</router-link>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Contacts</a>
+            <router-link to="/contacts" class="nav-link">Contacts</router-link>
           </li>
-
         </ul>
       </div>
     </nav>
-
-
-
-  </header>
 
 </template>
 
@@ -51,10 +42,6 @@
     font-size: 20px;
   }
 
-  header{
-    background-image: url("../assets/main-photo.png");
-    background-size: cover;
-    height: 100vh;
-  }
+
 
 </style>
